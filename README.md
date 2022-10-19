@@ -1,6 +1,6 @@
 # SNeTV: SuperNova(e) and Transients Visualizer
 
-I wrote this code pretty fast in order to compose 3-channel supernova images into time-evolving videos that I can show off when giving talks. Given that, you should be able to get good results with the suite of programs that I've included in  this package if you follow these steps with your own tweaks as needed. There doesn't seem to exist any other program for doing this kind of task that prioritized the aesthetics and artistic composition of the output video.
+I wrote this code pretty fast in order to compose 3-channel supernova images into aesthetic time-evolving videos that I can show off when giving talks. Given that, you should be able to get good results with the suite of programs that I've included in  this package if you follow these steps with your own tweaks as needed. There didn't seem to exist any other program for doing this kind of task.
 
 
 1. Make a directory for your project, and do everything in it.
