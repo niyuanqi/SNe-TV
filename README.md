@@ -10,7 +10,7 @@ I wrote this code pretty fast in order to compose 3-channel supernova images int
 
 2. Aligning the stars in the images: Make a subdirectory called "align", and run AlignIm.py in order to register your images and align their coordinates based on the foreground field stars. It requires the Astroalign (https://astroalign.quatrope.org/en/latest/) package, which requires Python3 (The rest of the steps are in Python2). You should select a not terrible image for the target in the code. A handful of images may fail if the image quality is too poor, and that's fine.
 
-3. Compile list of images that will become RGB: Use RGBSetup.py to compile the RGB list, rgblist.txt, whose four columns are bname, gname, rname, time. These are the files that will go into the final video.
+3. Compile the list of images that will become RGB: Use RGBSetup.py to compile the RGB list, rgblist.txt, whose four columns are bname, gname, rname, time. These are the files that will go into the final video.
 
 4. Automatically remove cosmic rays: Make a subdirectory called "cosrm", and run Cosrm.py in order to remove cosmic rays. It requires the Astro-SCRAPPY package (https://astroscrappy.readthedocs.io/en/latest/).
 
